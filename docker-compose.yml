@@ -32,7 +32,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: database
+      MYSQL_DATABASE: app-name
       MYSQL_USER: user
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
